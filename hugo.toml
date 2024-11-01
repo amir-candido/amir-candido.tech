@@ -1,0 +1,5 @@
+baseURL = 'https://amircandido.tech/'
+languageCode = 'en-us'
+title = 'Code Smarter, Build Better'
+theme = 'stack'
+enableEmoji = true
