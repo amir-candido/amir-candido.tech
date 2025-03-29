@@ -269,7 +269,7 @@ Here’s an overview of each middleware and why it’s important:
 
 * **cors():** CORS is configured with options to allow requests only from a specific origin, `requestOrigin` (the URL of our React front end). Setting `credentials: true` allows cookies to be included in requests, which is necessary for our authentication flow to access refresh tokens stored in cookies. This setup enhances security by preventing unauthorized domains from interacting with our API.
 
-* **morgan():** Morgan logs each HTTP request, capturing details like the HTTP method, URL, status code, and response time. In development, we use the combined format, which provides detailed logs to help track user actions and pinpoint errors. 
+* **morgan():** Morgan logs each HTTP request, capturing details like the HTTP method, URL, status code, and response time. In development, we use the `combined` format, which provides detailed logs to help track user actions and pinpoint errors. 
 
 
 By setting up these middleware functions, we ensure our API is secure, well-structured, and prepared to handle JSON requests, manage cookies, support cross-origin requests, and log interactions. 
@@ -328,7 +328,7 @@ const generateRefreshToken = (user) => {
 };
 ```
 
-This asymmetric encryption setup with private and public keys helps ensure that only our server can create valid tokens, while verification can happen securely using the public key. Let's now continue and create the Middleware to be used verify tokens and roles.
+This asymmetric encryption setup with private and public keys helps ensure that only our server can create valid tokens, while verification can happen securely using the public key. Let's now continue and create the Middleware to be used to verify tokens and roles.
 
 ### Authentication and Authorization Middleware
 

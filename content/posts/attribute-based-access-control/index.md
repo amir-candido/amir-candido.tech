@@ -1,5 +1,5 @@
 +++
-author = "Hugo Authors"
+author = "Amir Candido"
 title = "Implementing Attribute-Based Access Control (ABAC) In Modern Applications"
 date = "2024-11-16"
 description = "What is ABAC and How Does It Work?"
