@@ -22,7 +22,7 @@ WooCommerce, as a powerful and flexible e-commerce platform built on WordPress, 
 
 Whether you're connecting WooCommerce to complex inventory management systems, integrating with specialized marketing platforms requiring unique data formats, or building bespoke reporting dashboards, custom API endpoints offer unparalleled flexibility. By crafting your own endpoints, you gain complete control over the data exposed, the request and response formats, and the underlying business logic.
 
-This tutorial will guide you through the essential steps of creating a secure and functional custom WooCommerce REST API endpoint. Our primary focus will be on **JWT (JSON Web Token) authentication** for secure, stateless communication. We will also delve into best practices for **data handling**, ensuring efficient and reliable processing of information, and address crucial **security considerations** to protect your WooCommerce store and integrated systems.
+This tutorial will guide you through the essential steps of creating a secure and functional custom WooCommerce REST API endpoint. All the code for this tutorial is available in a public GitHub repository [here](https://github.com/amir-candido/woocommerce-custom-api-integration). Feel free to clone it, contribute, or use it as a reference as you follow along. Our primary focus will be on **JWT (JSON Web Token) authentication** for secure, stateless communication. We will also delve into best practices for **data handling**, ensuring efficient and reliable processing of information, and address crucial **security considerations** to protect your WooCommerce store and integrated systems.
 
 **Prerequisites:** This guide assumes you are an experienced developer with a solid understanding of:
 
