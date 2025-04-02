@@ -3,3 +3,4 @@ languageCode = 'en-us'
 title = 'Amir Candido'
 theme = 'stack'
 enableEmoji = true
+enableGitInfo = true
